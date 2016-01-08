@@ -36,3 +36,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [0.7.0] - 2021-11-02
 
 ### Added
+
+- Compatibility rules between obligation sets, with the conflicting pair quoted
+  in the finding.
+- Line numbers on every manifest parse error instead of aborting the run.
+
