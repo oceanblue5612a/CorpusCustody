@@ -26,3 +26,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Deterministic JSON report with a fixed key order.
 
 ## [0.9.0] - 2024-06-25
+
+### Added
+
+- Refusal on unknown provenance: a record with no recognised license is a
+  refusal, never a warning.
