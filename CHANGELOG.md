@@ -21,3 +21,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
+- Stable CLI contract: `gate` and `report` with exit codes 0, 1 and 2.
+- `docs/FORMAT.md` as the written contract for the manifest and the report.
+- Deterministic JSON report with a fixed key order.
+
+## [0.9.0] - 2024-06-25
