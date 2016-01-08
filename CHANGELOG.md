@@ -31,3 +31,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Refusal on unknown provenance: a record with no recognised license is a
   refusal, never a warning.
+- `--purpose` presets for internal, redistribute and commercial use.
+
+## [0.7.0] - 2021-11-02
+
+### Added
