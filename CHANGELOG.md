@@ -16,3 +16,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - The gate refuses a manifest whose declared purpose is unknown instead of
   falling back to the strictest preset.
 - A fixture for the unknown purpose, and the smoke run now covers it.
+
+## [1.0.0] - 2025-09-30
+
+### Added
+
