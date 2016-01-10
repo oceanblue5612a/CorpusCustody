@@ -41,3 +41,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   in the finding.
 - Line numbers on every manifest parse error instead of aborting the run.
 
+## [0.6.0] - 2020-11-24
+
+### Added
+
+- JSON report: `report --format json` with stable key order.
