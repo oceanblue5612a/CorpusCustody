@@ -46,3 +46,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 
 - JSON report: `report --format json` with stable key order.
+- Per-record obligation summaries in the report.
+
+## [0.5.0] - 2019-10-07
+
+### Added
