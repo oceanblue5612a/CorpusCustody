@@ -51,3 +51,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [0.5.0] - 2019-10-07
 
 ### Added
+
+- The obligation model: attribution, share-alike, notice and source disclosure
+  as separate obligations, never collapsed into one flag.
+- A worked gate run over the three bundled manifests.
+
