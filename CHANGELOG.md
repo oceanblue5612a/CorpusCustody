@@ -61,3 +61,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 
 - Gate decisions per record: PASS, REFUSE, with the deciding rule named.
+- Purpose differences documented, because the same corpus can pass one purpose
+  and refuse another.
+
+## [0.3.0] - 2017-12-05
+
