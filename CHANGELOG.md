@@ -56,3 +56,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   as separate obligations, never collapsed into one flag.
 - A worked gate run over the three bundled manifests.
 
+## [0.4.0] - 2018-10-16
+
+### Added
+
+- Gate decisions per record: PASS, REFUSE, with the deciding rule named.
