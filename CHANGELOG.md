@@ -66,3 +66,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.3.0] - 2017-12-05
 
+### Added
+
+- SPDX identifier parsing with a conservative fallback for unrecognised ids.
+- Strict validation for record ids, licenses and source fields.
+
