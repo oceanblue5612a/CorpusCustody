@@ -52,3 +52,16 @@ with the set. It resolves every record, applies the rules a careful reviewer
 would apply, and either clears the set for that purpose or refuses and names the
 records that blocked it, and why.
 
+## Install
+
+Install as an editable package:
+
+```
+pip install -e .
+```
+
+Or run without installing, from the project root:
+
+```
+set PYTHONPATH=src
+python -m corpuscustody version
