@@ -105,3 +105,16 @@ positional arguments:
     version             print the version
 
 options:
+  -h, --help            show this help message and exit
+```
+
+`--purpose` accepts exactly `internal`, `commercial`, or `redistribute`. It is
+case-insensitive: `Commercial` normalises to `commercial`. Pass `--out PATH` to
+`gate` to write a cleared manifest on PASS.
+
+## The obligation model
+
+Every license in the offline table maps to a set of obligations. An obligation
+is a mechanical yes or no fact about the license, not a judgement. These five
+obligations are the entire vocabulary the tool reasons over.
+
