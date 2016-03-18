@@ -131,3 +131,16 @@ record whose license cannot be resolved is treated as carrying every restrictive
 obligation at once, so it can never quietly pass a gate. That is defined once, in
 `src/corpuscustody/spdx.py`, as the `UNKNOWN` sentinel with all five flags set.
 
+## Purposes and why they differ
+
+The same set can be safe for one use and unsafe for another. The purpose you
+declare changes which obligations block and which are only noted.
+
+| Purpose        | Intent                                                        | Distribution      |
+| -------------- | ------------------------------------------------------------- | ----------------- |
+| `internal`     | internal research use, not distributed outside the org        | none              |
+| `commercial`   | a commercial product, distributed, possibly proprietary       | yes, and for sale |
+| `redistribute` | redistributed as a dataset or corpus to third parties         | yes               |
+
+Internal use is the most permissive purpose here, because nothing leaves the
+organisation. Share-alike and non-commercial obligations do not block internal
