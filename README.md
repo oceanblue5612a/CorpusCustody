@@ -157,3 +157,17 @@ issue for that purpose. `finding` blocks the gate. `note` is informational and
 does not block.
 
 | Obligation       | `internal` | `commercial` | `redistribute` |
+| ---------------- | ---------- | ------------ | -------------- |
+| `unknown`        | finding    | finding      | finding        |
+| `share_alike`    | (none)     | finding      | note           |
+| `non_commercial` | (none)     | finding      | (none)         |
+| `no_derivatives` | note       | finding      | finding        |
+| `attribution`    | note       | note         | note           |
+
+Reading the table as prose, so the intent is unambiguous:
+
+- `unknown` is a finding for every purpose. Unknown provenance never passes.
+- `share_alike` is a finding for commercial, because a share-alike corpus mixed
+  into a proprietary release forces that release to share alike. For
+  redistribute it is a note: the combined set must then carry the terms.
+- `non_commercial` is a finding for commercial only. Internal and redistribute
