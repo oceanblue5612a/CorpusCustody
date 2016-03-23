@@ -210,3 +210,16 @@ scraped data.
 ### permissive.manifest, commercial: PASS, 0 findings
 
 Five permissive records, attribution at most. It clears for commercial with four
+attribution notes and no findings.
+
+```
+python -m corpuscustody gate samples/permissive.manifest --purpose commercial
+```
+
+```
+purpose: commercial
+records: 5
+decision: PASS
+findings: 0
+notes: 4
+  rec-0001 | MIT | attribution: attribution must be preserved
