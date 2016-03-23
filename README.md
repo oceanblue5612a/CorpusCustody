@@ -263,3 +263,16 @@ not block internal use, leaving the five attribution notes) and for
 `redistribute` (a PASS with seven notes, where the two share-alike obligations
 become notes rather than the commercial findings above). Only the declared
 purpose changed; the records did not.
+
+### unknown.manifest, internal: REFUSE, 2 findings
+
+Two records resolve to `UNKNOWN`, one from an empty license field (`rec-2003`)
+and one from the explicit token (`rec-2005`). Even for the most permissive
+purpose, the gate refuses.
+
+```
+python -m corpuscustody gate samples/unknown.manifest --purpose internal
+```
+
+```
+purpose: internal
