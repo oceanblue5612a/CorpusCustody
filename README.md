@@ -236,3 +236,17 @@ obligations, so it is silent.
 The same set that is fine internally mixes share-alike and non-commercial
 records into a commercial release. Three findings, and the process exits 1.
 
+```
+python -m corpuscustody gate samples/sharealike.manifest --purpose commercial
+```
+
+```
+purpose: commercial
+records: 5
+decision: REFUSE
+findings: 3
+  rec-1002 | CC-BY-SA-4.0 | share_alike: share-alike terms attach to the combined set
+  rec-1004 | CC-BY-NC-4.0 | non_commercial: non-commercial license, commercial use blocked
+  rec-1005 | GPL-3.0-only | share_alike: share-alike terms attach to the combined set
+notes: 5
+  rec-1001 | MIT | attribution: attribution must be preserved
