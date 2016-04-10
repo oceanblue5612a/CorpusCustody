@@ -408,3 +408,16 @@ CC-BY-SA-4.0, GPL-3.0-only, CC-BY-NC-4.0 at 1 each, for 15 records. The UNKNOWN
 row is amber because it is the row a reader must not miss: every obligation cell
 is filled, so it blocks every purpose.
 
+## Limitations, expanded
+
+This is a mechanical obligation check, not legal advice. It matches SPDX
+identifiers against a short hand-maintained table and applies fixed rules. It
+does not:
+
+- read or interpret full license texts, only identifiers,
+- cover every SPDX identifier, only the common ones in
+  `src/corpuscustody/spdx.py`,
+- model license version differences beyond the identifiers listed,
+- handle dual licensing, exceptions, or per-file license expressions,
+- decide whether attribution or share-alike terms are actually satisfied
+  downstream, only that they attach,
