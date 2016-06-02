@@ -5,3 +5,4 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "corpuscustody"
 version = "1.0.1"
+description = "Training-data license and provenance gate."
