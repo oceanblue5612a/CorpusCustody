@@ -16,3 +16,9 @@ An empty spdx_id field is preserved as an empty string, which the resolver maps
 to UNKNOWN. This keeps parsing and license policy in separate modules.
 """
 
+from dataclasses import dataclass
+from typing import List
+
+
+class ManifestError(ValueError):
+    """Raised when a manifest line cannot be parsed into a record."""
