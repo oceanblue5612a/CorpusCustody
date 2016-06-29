@@ -12,3 +12,4 @@ license = { text = "MIT" }
 authors = [{ name = "the corpuscustody authors" }]
 
 [project.scripts]
+corpuscustody = "corpuscustody.cli:main"
