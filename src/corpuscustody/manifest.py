@@ -28,3 +28,9 @@ class ManifestError(ValueError):
 class Record:
     """One dataset record drawn from a manifest line."""
 
+    line_no: int
+    record_id: str
+    spdx_id: str
+    source: str
+
+
