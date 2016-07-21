@@ -40,3 +40,8 @@ def parse_line(line_no: int, raw: str) -> Record:
     Raises ManifestError if the line does not have exactly three fields.
     """
     fields = raw.split("|")
+    if len(fields) != 3:
+        raise ManifestError(
+            "line {0}: expected 3 pipe separated fields, found {1}".format(
+                line_no, len(fields)
+            )
