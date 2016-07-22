@@ -51,3 +51,9 @@ def parse_line(line_no: int, raw: str) -> Record:
     source = fields[2].strip()
     if not record_id:
         raise ManifestError("line {0}: empty record id".format(line_no))
+    return Record(line_no=line_no, record_id=record_id, spdx_id=spdx_id, source=source)
+
+
+def parse_text(text: str) -> List[Record]:
+    """Parse manifest text into a list of Records in file order."""
+    records: List[Record] = []
