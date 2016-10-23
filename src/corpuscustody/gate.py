@@ -26,3 +26,9 @@ REFUSE = "REFUSE"
 @dataclass
 class GateResult:
     """The outcome of a gate decision."""
+
+    purpose: str
+    decision: str
+    record_count: int
+    result: SetResult
+
