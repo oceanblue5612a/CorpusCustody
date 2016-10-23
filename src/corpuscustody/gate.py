@@ -39,3 +39,9 @@ class GateResult:
     @property
     def findings(self) -> List[Issue]:
         return self.result.findings
+
+    @property
+    def notes(self) -> List[Issue]:
+        return self.result.notes
+
+
