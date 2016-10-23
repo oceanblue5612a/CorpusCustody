@@ -32,3 +32,10 @@ class GateResult:
     record_count: int
     result: SetResult
 
+    @property
+    def refused(self) -> bool:
+        return self.decision == REFUSE
+
+    @property
+    def findings(self) -> List[Issue]:
+        return self.result.findings
