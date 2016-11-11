@@ -52,3 +52,9 @@ def decide(records: List[Record], purpose: str) -> GateResult:
     return GateResult(
         purpose=result.purpose,
         decision=decision,
+        record_count=len(records),
+        result=result,
+    )
+
+
+def cleared_manifest_lines(records: List[Record], purpose: str) -> List[str]:
