@@ -65,3 +65,9 @@ def cleared_manifest_lines(records: List[Record], purpose: str) -> List[str]:
     line terminator and byte-identical output stays under its control.
     """
     lines: List[str] = []
+    lines.append("# corpuscustody cleared manifest")
+    lines.append("# purpose: {0}".format(purpose))
+    lines.append("# record_id | spdx_id | cleared_for")
+    for record in records:
+        lic = resolve(record.spdx_id)
+        lines.append(
