@@ -45,3 +45,10 @@ class GateResult:
         return self.result.notes
 
 
+def decide(records: List[Record], purpose: str) -> GateResult:
+    """Run the gate over records for the declared purpose."""
+    result = evaluate(records, purpose)
+    decision = PASS if result.clear else REFUSE
+    return GateResult(
+        purpose=result.purpose,
+        decision=decision,
