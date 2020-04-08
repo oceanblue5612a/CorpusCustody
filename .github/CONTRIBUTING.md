@@ -11,3 +11,6 @@ reads manifests and never fetches or executes anything.
 python -m compileall -q src
 python -m pytest -q
 PYTHONPATH=src python -m corpuscustody --help
+```
+
+## Before you open a pull request
