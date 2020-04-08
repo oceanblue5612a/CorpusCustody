@@ -8,3 +8,6 @@ reads manifests and never fetches or executes anything.
 - Python 3.11+. The package uses the standard library only.
 
 ```bash
+python -m compileall -q src
+python -m pytest -q
+PYTHONPATH=src python -m corpuscustody --help
