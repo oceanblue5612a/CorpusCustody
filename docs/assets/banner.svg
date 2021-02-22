@@ -15,3 +15,7 @@
   </g>
   <text x="48" y="92" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#f6f3ea">CorpusCustody</text>
   <text x="48" y="122" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#b8ad8c">license obligations across mixed-provenance corpora, decided at a gate</text>
+  <g transform="translate(48 150)">
+    <rect x="0" y="8" width="64" height="40" rx="5" fill="#22241a" stroke="#3c3f2c"/>
+    <rect x="76" y="8" width="64" height="40" rx="5" fill="#22241a" stroke="#3c3f2c"/>
+    <rect x="152" y="8" width="64" height="40" rx="5" fill="#22241a" stroke="#3c3f2c"/>
