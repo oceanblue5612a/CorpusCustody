@@ -13,3 +13,8 @@ authors = [{ name = "the corpuscustody authors" }]
 
 [project.scripts]
 corpuscustody = "corpuscustody.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+<!-- draft note 1591 -->
