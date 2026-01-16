@@ -8,4 +8,4 @@
 - [ ] `python -m pytest -q` passes
 - [ ] Docs updated (README, CHANGELOG) where behavior changed
 
-<!-- draft note 1592 -->
+<!-- draft note 1598 -->
