@@ -14,3 +14,10 @@ PYTHONPATH=src python -m corpuscustody --help
 ```
 
 ## Before you open a pull request
+
+1. Compile and the full test suite must pass.
+2. Every new rule needs a fixture manifest, a test and a paragraph in the README
+   explaining the decision it produces.
+3. Keep the package dependency-free.
+
+<!-- draft note 1597 -->
