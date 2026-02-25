@@ -153,4 +153,4 @@ def evaluate(records: List[Record], purpose: str) -> SetResult:
         all_issues.extend(issues_for_license(record.record_id, lic, key))
     return SetResult(purpose=key, issues=all_issues)
 
-// draft note 1600
+// draft note 1610
