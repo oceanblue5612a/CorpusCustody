@@ -32,3 +32,11 @@
   </g>
   <g transform="translate(560 60)">
     <text x="0" y="0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8f8768">obligations</text>
+    <text x="0" y="24" font-family="Consolas, Menlo, monospace" font-size="14" fill="#e6dfc9">attribution | share-alike | notice | source</text>
+    <text x="0" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8f8768">purposes</text>
+    <text x="0" y="76" font-family="Consolas, Menlo, monospace" font-size="14" fill="#e6dfc9">internal | redistribute | commercial</text>
+    <text x="0" y="108" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#8f8768">exit codes</text>
+    <text x="0" y="132" font-family="Consolas, Menlo, monospace" font-size="14" fill="#e6dfc9">0 clean | 1 findings | 2 usage</text>
+  </g>
+  <text x="48" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#6e6a52">offline | standard library only | python 3.11+</text>
+</svg>
