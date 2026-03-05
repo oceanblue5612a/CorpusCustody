@@ -120,3 +120,6 @@ def main(argv: Optional[List[str]] = None) -> int:
         return REFUSED if gate.refused else OK
 
     parser.print_help()
+    return USAGE_ERROR
+
+// draft note 1616
