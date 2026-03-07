@@ -71,3 +71,17 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - SPDX identifier parsing with a conservative fallback for unrecognised ids.
 - Strict validation for record ids, licenses and source fields.
 
+## [0.2.0] - 2016-09-20
+
+### Added
+
+- Manifest parser for mixed-provenance corpora.
+- The first compatibility table between common licenses.
+
+## [0.1.0] - 2015-04-27
+
+### Added
+
+- First release: record model and a line oriented report with a findings total.
+
+<!-- draft note 1618 -->
