@@ -84,4 +84,4 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - First release: record model and a line oriented report with a findings total.
 
-<!-- draft note 1618 -->
+<!-- draft note 1620 -->
