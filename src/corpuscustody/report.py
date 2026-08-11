@@ -68,3 +68,4 @@ def render_report(records: List[Record], gate: GateResult) -> List[str]:
     lines.extend(render_resolve(records))
     lines.append("== gate ==")
     lines.extend(render_gate(gate))
+    return lines
