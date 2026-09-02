@@ -19,5 +19,3 @@ PYTHONPATH=src python -m corpuscustody --help
 2. Every new rule needs a fixture manifest, a test and a paragraph in the README
    explaining the decision it produces.
 3. Keep the package dependency-free.
-
-<!-- draft note 1597 -->
