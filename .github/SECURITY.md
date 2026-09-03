@@ -15,5 +15,3 @@ nothing. If you find a security issue, report it privately with GitHub's
 
 We aim to acknowledge reports within 72 hours and to ship a fix in the next
 patch release.
-
-<!-- draft note 1605 -->
