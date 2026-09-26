@@ -296,6 +296,9 @@ sentinel carries every obligation and `no_derivatives` is a note under internal.
 
 ## Manifest format field by field
 
+Every field is either required or has a documented
+default. The table is the contract the parser and the report both implement.
+
 A manifest is a UTF-8 text file, one record per line. Blank lines and lines whose
 first non-space character is `#` are ignored, so manifests carry comments and
 stay diffable. Each record line has exactly three pipe-separated fields.
