@@ -154,6 +154,9 @@ non-commercial, so a share-alike record is a note rather than a hard block.
 
 ## The compatibility rules
 
+Compatibility is decided between obligation sets, not between
+license names, so two spellings of the same terms behave identically. The conflicting pair is quoted in the finding.
+
 These are the actual rules the code applies, transcribed from the `_RULES` table
 in `src/corpuscustody/compat.py`. A blank cell means the obligation raises no
 issue for that purpose. `finding` blocks the gate. `note` is informational and
