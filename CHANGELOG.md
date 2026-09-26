@@ -10,6 +10,36 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Rule tables are being reorganised for the next patch.
 - The gate report is being reviewed for the next minor.
 
+## [5.0.0] - 2026-09-16
+
+### Added
+
+- `--summary` prints only the gate decision counts, for dashboards.
+
+## [4.0.0] - 2026-09-13
+
+### Changed
+
+- The report groups findings by obligation; per-record detail moves behind
+  `--per-record`.
+
+### Added
+
+- `--strict` turns unrecognised SPDX ids into refusals instead of warnings.
+
+## [3.2.0] - 2026-09-10
+
+### Added
+
+- The gate decision carries the purpose it was evaluated under.
+
+## [2.1.0] - 2026-09-04
+
+### Added
+
+- A `purpose` block in the JSON report naming the preset and its obligations.
+- Fixtures for the unknown-purpose refusal.
+
 ## [1.0.1] - 2026-07-07
 
 ### Fixed
