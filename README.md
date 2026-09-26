@@ -190,6 +190,9 @@ Issues are emitted in record order, then in the obligation order declared in
 
 ## Unknown provenance is a refusal, not a warning
 
+Unknown provenance is a refusal because
+no obligation set can be derived from it. A warning here would let the one case the gate exists for slip through as a note.
+
 The single most consequential design choice is that an unresolvable license does
 not degrade to permissive and does not become a soft warning. It becomes a
 blocking finding for every purpose, and it makes the gate refuse.
