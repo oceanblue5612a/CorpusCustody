@@ -114,6 +114,9 @@ case-insensitive: `Commercial` normalises to `commercial`. Pass `--out PATH` to
 
 ## The obligation model
 
+The model keeps attribution, share-alike, notice and source
+disclosure as separate obligations. Collapsing them into one flag is how a compliant-looking gate starts passing corpora it should refuse.
+
 Every license in the offline table maps to a set of obligations. An obligation
 is a mechanical yes or no fact about the license, not a judgement. These five
 obligations are the entire vocabulary the tool reasons over.
